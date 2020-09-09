@@ -9,7 +9,6 @@ function test_integer(number) {
 }
 
 
-
 // SQUARE = function(n){
 // 	return function(s) { return function(i){ return s(s(i)) } }(n)
 // }
@@ -27,7 +26,7 @@ print(function(g) {
 	}
 }(function(m) {
 	return function(n) {
-		return m(fn_numbernction(m) {
+		return m(function(m) {
 			return function(n) {
 				return m(function(fn_number) {
 					return function(s) {
